@@ -30,7 +30,7 @@ st.markdown(
 # FOTO PROFIL
 # =====================================================
 
-profile_img = r"C:\Users\hp\Pictures\WhatsApp Image 2026-05-15 at 18.56.10.jpeg"
+profile_img = "WhatsApp Image 2026-05-15 at 18.56.10.jpeg"
 
 # =====================================================
 # SIDEBAR
@@ -38,7 +38,7 @@ profile_img = r"C:\Users\hp\Pictures\WhatsApp Image 2026-05-15 at 18.56.10.jpeg"
 
 with st.sidebar:
 
-    st.image(profile_img, use_container_width=True)
+   st.image(profile_img, width='stretch')
 
     st.markdown("""
     <div class="sidebar-title">
