@@ -38,9 +38,11 @@ profile_img = "WhatsApp Image 2026-05-15 at 18.56.10.jpeg"
 
 with st.sidebar:
 
-   st.image(profile_img, width='stretch')
+    st.image(profile_img, width='stretch')
 
     st.markdown("""
+    isi tulisan
+    """)
     <div class="sidebar-title">
         🎓 SAINS DATA
     </div>
